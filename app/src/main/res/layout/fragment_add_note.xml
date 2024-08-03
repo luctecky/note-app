@@ -9,6 +9,7 @@
         android:orientation="vertical"
         tools:context=".NewNoteFragment"
         android:padding="12dp">
+
         <TextView
             android:id="@+id/addNoteHeading"
             android:layout_width="wrap_content"
@@ -17,9 +18,9 @@
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins"
             android:text="Add Note."
-            android:textStyle="bold"
             android:textColor="@color/red"
-            android:textSize="24sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
         <EditText
             android:id="@+id/addNoteTitle"
             android:layout_width="match_parent"
