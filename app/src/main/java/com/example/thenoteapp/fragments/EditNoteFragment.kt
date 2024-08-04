@@ -1,7 +1,6 @@
 package com.example.thenoteapp.fragments
 
 import android.os.Bundle
-import com.example.thenoteapp.model.Note
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.Menu
@@ -19,6 +18,8 @@ import com.example.thenoteapp.MainActivity
 import com.example.thenoteapp.R
 import com.example.thenoteapp.databinding.FragmentEditNoteBinding
 import com.example.thenoteapp.viewmodel.NoteViewModel
+import com.example.thenoteapp.model.Note
+
 
 class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
 
