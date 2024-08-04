@@ -3,7 +3,6 @@ package com.example.thenoteapp.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.thenoteapp.fragments.AddNoteFragment
 import com.example.thenoteapp.model.Note
 import com.example.thenoteapp.repository.NoteRepository
 import kotlinx.coroutines.launch
